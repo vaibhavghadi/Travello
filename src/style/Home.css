@@ -1,0 +1,144 @@
+.win{
+    position: relative;
+    border: 1px solid black;
+    height: 35vw;
+    width:80vw;
+}
+
+.sidebar{
+    position: relative;
+    top: 4vw;
+    left: 0;
+    height: 100vw;
+    width:20vw;
+    background-color: rgb(21, 47, 83);
+}
+
+.side{
+    display: flex;
+}
+
+
+.d-md-block {
+    display: block !important;
+    background: #131060;
+    width: 35vw;
+    border-radius: 20px;
+}
+
+
+
+.cont1{
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 6vw;
+}
+
+.carousel{
+    position: relative;
+    width: 80vw;
+    top: 7vw;
+    border: 1px solid black;
+    height: 35vw;
+    overflow: hidden;
+    border-radius: 80px;
+    box-shadow: 20px 10px 60px 30px;
+    
+}
+
+.carousel-caption{
+    left: 28%;
+    color: rgb(242, 241, 241);
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+        
+}
+
+.cbody{
+    display: flex;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.ctitle{
+    margin-bottom: var(--bs-card-title-spacer-y);
+    color: var(--bs-card-title-color);
+    margin-right: 1vw;
+    cursor: pointer;
+}
+
+#ctitle{
+    text-shadow: 6px 3px 10px grey;
+}
+
+.image{
+    height:75%;
+}
+
+.country{
+    margin-top: 12vw;
+    padding:  1vw;
+    text-align: center;
+    color: brown;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tour {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3vw 1vw;
+    margin: 1vw 1vw;
+}
+
+.item1{
+    cursor: pointer;
+}
+
+.item1:hover{
+    position: relative;
+    bottom:1vw;
+    box-shadow: 12px 12px 50px 5px rgb(226 9 30);
+}
+
+.carousel-control-prev{
+    z-index: 0;
+    opacity: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.carousel-control-next{
+    z-index: 0;
+    opacity: 1;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 6rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    background-color: #131060;;
+}
+
+
+
+

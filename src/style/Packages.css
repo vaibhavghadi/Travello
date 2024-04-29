@@ -1,0 +1,61 @@
+.packages{
+    margin-top: -6vw;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.tour1 {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 6vw 1vw;
+    margin: 6vw 1vw;
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item1{
+    width: 25vw ;
+    margin: 1vw 1vw;
+    box-shadow: 12px 12px 120px 20px;
+}
+
+img{
+    height: 40%;
+    background-size: cover;
+
+}
+
+.card-title{
+    height: 10%;
+}
+
+.card-text{
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+   -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.fa-solid, .fas {
+    font-weight: 900;
+    color: #ff9200;
+}
+
+li{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2px 2px;
+    margin: 2px 2px;
+}
+
+#badge{
+    line-height: 1.5;
+}
+
+

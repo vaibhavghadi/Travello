@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+
+.pay_div{
+    padding: 2px 2px;
+    height: 4vw;
+    text-align: center;
+}
+
+input[type="month"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  input[type="date"]::-webkit-calendar-picker-indicator:hover {
+    opacity: 1
+  }
+
+
+
+.pay_cont {
+    margin: 20px auto;
+    width: 500px;
+    padding: 30px;
+    top:4vw;
+}
+
+
+.card.box2 {
+    width:40vw;
+    height: 35vw;
+    background-color: #ffffff;
+    border-radius: 0
+}
+
+.text {
+    font-size: 13px
+}
+
+.box2 .btn.btn-primary.bar {
+    width: 20px;
+    background-color: transparent;
+    border: none;
+   
+}
+
+.box2 .btn.btn-primary.bar:hover {
+    color: #baf0c3
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    box-shadow: none;
+    height: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 15px 0px;
+    letter-spacing: 1.5px;
+    border-radius: 0
+}
+
+.inputWithIcon {
+    position: relative
+}
+
+.p_card {
+    width: 50px;
+    height: 20px;
+    object-fit: cover
+}
+
+.inputWithIcon span {
+    position: absolute;
+    right: 0px;
+    color: #f70909;;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 14px
+}
+
+.icon1{
+    position: absolute;
+    top:1vw;
+    right: 0px;
+    color: #f70909;;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 14px
+
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-bottom: 1px solid #ddd
+}
+
+
+
+
+
+
+
+
+@media (max-width:750px) {
+    .container {
+        padding: 10px;
+        width: 100%
+    }
+
+    .text-green {
+        font-size: 14px
+    }
+
+   
+    .card.box2 {
+        width: 100%
+    }
+
+   
+}

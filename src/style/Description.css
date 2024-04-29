@@ -1,0 +1,49 @@
+
+
+.description{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-family:"Oswald", sans-serif ;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 60vw;
+    border-radius: 12px;
+    padding: 6vw 6vw;
+    margin: 6vw;
+    box-shadow: 30px 60px 90px 50px grey;
+    
+}
+
+.desc_img{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6vw;
+   
+}
+
+.desc_image{
+    border-radius: 20px;
+    box-shadow: 16px 12px 90px 50px grey;
+    height: 20vw;
+    cursor: zoom-in,
+}
+
+.desc_image:hover{
+    height: 25vw;
+    transition: transform 0.25s ease;
+}
+
+.para{
+    text-indent: 4rem;
+}
+
